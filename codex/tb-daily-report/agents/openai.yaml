@@ -1,0 +1,4 @@
+interface:
+  display_name: "TB Daily Report"
+  short_description: "根据 TeamBition 任务与动态生成严格格式个人日报"
+  default_prompt: "Use $tb-daily-report to generate a personal TeamBition daily report from task and activity API responses."
