@@ -2,13 +2,21 @@
 
 ## Upstream APIs
 
+Set `LECHUN_API_BASE` in your local environment for real usage. The public skill keeps only path examples and expects the real host to come from that environment variable.
+
+Example:
+
+```bash
+export LECHUN_API_BASE="https://your-real-api-host.example.com"
+```
+
 ### 1. Task activity report
 
-- URL: `https://scmapi.lechun.cc/lechun-bi/tb/getTaskActivityReport`
+- URL: `${LECHUN_API_BASE}/lechun-bi/tb/getTaskActivityReport`
 - Method: `GET`
 - Parameters:
-  - `loginDingId`: 登录用户的 DingId
-  - `dingId`: 被查询用户的 DingId
+  - `authUserId`: authenticated user identifier
+  - `targetUserId`: target user identifier
   - `endTime`: 结束时间，取当前时间，格式 `yyyy-MM-dd HH:mm:ss`
 - Expected usage:
   - fetch the latest 24-hour task changes
@@ -16,11 +24,11 @@
 
 ### 2. Task report
 
-- URL: `https://scmapi.lechun.cc/lechun-bi/tb/getTasksForReport`
+- URL: `${LECHUN_API_BASE}/lechun-bi/tb/getTasksForReport`
 - Method: `GET`
 - Parameters:
-  - `loginDingId`: 登录用户的 DingId
-  - `dingIds`: 被查询用户的 DingId，多个值用英文逗号分隔
+  - `authUserId`: authenticated user identifier
+  - `targetUserIds`: target user identifiers, comma-separated when multiple values are needed
   - `reportType`: `daily` for personal daily report, `weekly` for personal weekly report, `dept_weekly` for department weekly report
 - Expected usage:
   - personal daily report must use `reportType=daily`
@@ -41,6 +49,8 @@
 ## Exact Report Template
 
 Replace `统计对象` with the employee name. Replace `${Script_a0JJ.msg_date}` with the report date when available.
+
+Keep any real endpoint hostnames, auth scheme details, and organization-specific identifier names in private deployment docs or environment configuration rather than this public reference.
 
 ```md
 #  📕 「统计对象」日报（${Script_a0JJ.msg_date}）
