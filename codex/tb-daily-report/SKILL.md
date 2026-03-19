@@ -13,9 +13,9 @@ Generate a personal TeamBition daily report from two upstream HTTP APIs and rend
 
 1. Read the request and identify:
    - the employee being reported
-   - the login DingTalk user
-   - the target user identifier list for task-report requests
-   - the target user identifier value for activity-report requests
+   - the `loginDingId` used to authenticate the request
+   - the `dingIds` list for task-report requests
+   - the `dingId` value for activity-report requests
    - the reporting date
 2. Resolve the API base URL from environment configuration when available, then fetch both upstream data sources described in [references/api-and-template.md](references/api-and-template.md).
 3. Inspect the returned JSON and locate the required collections by name:

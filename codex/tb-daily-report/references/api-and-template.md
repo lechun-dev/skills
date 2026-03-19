@@ -15,8 +15,8 @@ export LECHUN_API_BASE="https://your-real-api-host.example.com"
 - URL: `${LECHUN_API_BASE}/lechun-bi/tb/getTaskActivityReport`
 - Method: `GET`
 - Parameters:
-  - `authUserId`: authenticated user identifier
-  - `targetUserId`: target user identifier
+  - `loginDingId`: authenticated DingTalk identifier
+  - `dingId`: target DingTalk identifier
   - `endTime`: 结束时间，取当前时间，格式 `yyyy-MM-dd HH:mm:ss`
 - Expected usage:
   - fetch the latest 24-hour task changes
@@ -27,8 +27,8 @@ export LECHUN_API_BASE="https://your-real-api-host.example.com"
 - URL: `${LECHUN_API_BASE}/lechun-bi/tb/getTasksForReport`
 - Method: `GET`
 - Parameters:
-  - `authUserId`: authenticated user identifier
-  - `targetUserIds`: target user identifiers, comma-separated when multiple values are needed
+  - `loginDingId`: authenticated DingTalk identifier
+  - `dingIds`: target DingTalk identifiers, comma-separated when multiple values are needed
   - `reportType`: `daily` for personal daily report, `weekly` for personal weekly report, `dept_weekly` for department weekly report
 - Expected usage:
   - personal daily report must use `reportType=daily`
