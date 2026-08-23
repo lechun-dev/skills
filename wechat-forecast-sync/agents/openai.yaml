@@ -1,0 +1,3 @@
+display_name: WeChat Forecast Sync
+short_description: 根据老 BI 历史销量、营销日历和秒杀信息生成微信渠道供应链预测，并导出 ERP 销售预测导入文件
+default_prompt: 使用 $wechat-forecast-sync 生成微信渠道供应链预测。先确认预测时间范围、低温或常温、商品范围，以及是否有大促或秒杀；然后按固定规则计算预测，输出复核摘要和 ERP 导入 CSV。

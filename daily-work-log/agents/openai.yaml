@@ -1,0 +1,3 @@
+display_name: Daily Work Log
+short_description: 记录当日开发动作并生成日报
+default_prompt: 记录当前完成的工作动作，或基于今日日志生成日报。

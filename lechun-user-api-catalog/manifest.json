@@ -1,0 +1,15 @@
+{
+  "skillCode": "lechun-user-api-catalog",
+  "skillName": "Lechun User API Catalog",
+  "description": "获取当前用户有权限使用的乐纯内部 API，支持按系统、关键词和业务目标筛选，并输出适合 Codex 继续创建 Skill、脚本或工作流的结构化 API 上下文。",
+  "category": "Skill",
+  "tags": [
+    "lechun",
+    "api",
+    "catalog",
+    "codex",
+    "skill",
+    "internal"
+  ],
+  "sourceType": "directory"
+}

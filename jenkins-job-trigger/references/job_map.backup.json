@@ -1,0 +1,13 @@
+{
+  "lechun-ai": "lechun_test_ai",
+  "lechun-balance": "lechun_test_balance",
+  "lechun-baseservice": "lechun_test_baseservice",
+  "lechun-bi": "lechun_test_bi",
+  "lechun-cms": "lechun_test_cms",
+  "lechun-customers": "lechun_test_customer",
+  "lechun-mcp": "lechun_test_mcp",
+  "lechun-sales": "lechun_test_sales",
+  "lechun-tools": "lechun_test_tools",
+  "csmsapi": "lechun_test_csmsapi",
+  "csmsweb": "lechun_test_csmsweb"
+}

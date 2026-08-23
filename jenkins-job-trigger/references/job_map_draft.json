@@ -1,0 +1,189 @@
+{
+  "_comment": "按当前工作区目录名和 Jenkins job 命名规则推断的草案。status=inferred 表示推断，status=confirmed 表示已在现有 job_map.json 中启用。请人工核对后再合并到正式映射。",
+  "ams-web": {
+    "test_job": "lechun_test_amsweb",
+    "product_job": "lechun_product_amsweb",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "cmsweb": {
+    "test_job": "lechun_test_cmsweb",
+    "product_job": "lechun_product_cmsweb",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "csmsapi": {
+    "test_job": "lechun_test_csmsapi",
+    "product_job": "lechun_product_csmsapi",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "csmsweb": {
+    "test_job": "lechun_test_csmsweb",
+    "product_job": "lechun_product_csmsweb",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "erp2.0Web": {
+    "test_job": "lechun_erp2.0_test_web",
+    "product_job": "lechun_erp2.0_product_web",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-ai": {
+    "test_job": "lechun_test_ai",
+    "product_job": "lechun_product_ai",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-balance": {
+    "test_job": "lechun_test_balance",
+    "product_job": "lechun_product_balance",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-baseservice": {
+    "test_job": "lechun_test_baseservice",
+    "product_job": "lechun_product_baseservice",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-bd": {
+    "test_job": "lechun_micro_test_bd",
+    "product_job": "lechun_micro_product_bd",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-bi": {
+    "test_job": "lechun_test_bi",
+    "product_job": "lechun_product_BI",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-bp": {
+    "test_job": "lechun_micro_test_bp",
+    "product_job": "lechun_micro_product_bp",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-cms": {
+    "test_job": "lechun_test_cms",
+    "product_job": "lechun_product_cms",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-customers": {
+    "test_job": "lechun_test_customer",
+    "product_job": "lechun_product_customer",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-ec": {
+    "test_job": "lechun_micro_test_ec",
+    "product_job": "lechun_micro_product_ec",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-mcp": {
+    "test_job": "lechun_test_mcp",
+    "product_job": "lechun_product_mcp",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-mcp-gateway": {
+    "test_job": "lechun_micro_test_mcp_gateway",
+    "product_job": "lechun_micro_product_mcp_gateway",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-oms-v2.0": {
+    "test_job": "lechun_micro_test_oms2.0",
+    "product_job": "lechun_micro_product_omsv2.0",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-pu": {
+    "test_job": "lechun_micro_test_pu",
+    "product_job": "lechun_micro_product_pu",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-sa": {
+    "test_job": "lechun_micro_test_sa",
+    "product_job": "lechun_micro_product_sa",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-sales": {
+    "test_job": "lechun_test_sales",
+    "product_job": "lechun_product_sales",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-tools": {
+    "test_job": "lechun_test_tools",
+    "product_job": "lechun_product_tools",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "lechun-wms": {
+    "test_job": "lechun_micro_test_wms",
+    "product_job": "lechun_micro_product_wms",
+    "status": "confirmed",
+    "confidence": "high"
+  },
+  "miniProgramV2": {
+    "test_job": null,
+    "product_job": null,
+    "status": "confirmed",
+    "confidence": "medium",
+    "note": "微信小程序代码，无需jenkins部署"
+  },
+  "lechun-web": {
+    "test_job": "lechun_micro_test_webFile",
+    "product_job": "lechun_micro_product_webFile",
+    "status": "confirmed",
+    "confidence": "low"
+  },
+  "lechun-portalweb": {
+    "test_job": null,
+    "product_job": null,
+    "status": "confirmed",
+    "confidence": "low",
+    "note": "不在此jenkins部署。"
+  },
+  "lechun_server": {
+    "test_job": null,
+    "product_job": null,
+    "status": "confirmed",
+    "confidence": "low",
+    "note": "遗留项目代码，无部署"
+  },
+  "lechun-platform": {
+    "test_job": null,
+    "product_job": null,
+    "status": "confirmed",
+    "confidence": "low",
+    "note": "基础组件，无部署"
+  },
+  "lechun-tmall": {
+    "test_job": null,
+    "product_job": null,
+    "status": "confirmed",
+    "confidence": "low",
+    "note": "3个平台，需要手动选择"
+  },
+  "lechunDevelop": {
+    "test_job": "lechun_test_mall",
+    "product_job": null,
+    "status": "confirmed",
+    "confidence": "low",
+    "note": "小程序后台代码，线上环境需要手动在jenkins重启"
+  },
+  "lechunCore": {
+    "test_job": null,
+    "product_job": null,
+    "status": "confirmed",
+    "confidence": "基础组件，无部署"
+  }
+}

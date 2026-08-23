@@ -1,0 +1,3 @@
+display_name: EOQ Calculator
+short_description: 计算原料 EOQ 建议值并通过 dws 写入钉钉 AI 表格
+default_prompt: 使用 $eoq-calculator 拉取原料主数据，按物料编码计算 EOQ 建议值并写入 EOQ AI 表格；默认跳过已存在物料，如我指定物料编码则只处理该物料。

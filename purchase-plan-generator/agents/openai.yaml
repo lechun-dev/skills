@@ -1,0 +1,3 @@
+display_name: Purchase Plan Generator
+short_description: 生成原料周采购计划并通过 dws 写入钉钉 AI 表格，默认用固定 RobotCode 发送 Markdown 机器人消息
+default_prompt: 使用 $purchase-plan-generator 拉取毛需求、库存、在途和 EOQ 数据，生成本周采购计划表；默认在写表后通过固定 RobotCode 向王汉晓发送完整 Markdown 报告，如我指定物料编码或仓库则只处理对应范围。

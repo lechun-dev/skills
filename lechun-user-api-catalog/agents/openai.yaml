@@ -1,0 +1,3 @@
+display_name: Lechun User API Catalog
+short_description: 获取当前用户可见 API，并输出适合 Codex 继续开发 Skill 的上下文
+default_prompt: 使用 lechun-user-api-catalog，先获取我当前可用的 API 清单，再按业务目标筛选并输出结构化 API 上下文。
